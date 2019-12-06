@@ -3,6 +3,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+import { Carousel, CarouselItem } from 'element-ui'
+
+Vue.use(Carousel).use(CarouselItem)
+
 Vue.config.productionTip = false
 
 new Vue({

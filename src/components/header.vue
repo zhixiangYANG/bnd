@@ -6,7 +6,7 @@
       </div>
       <div class="nav">
         <ul>
-          <router-link tag="li" to="/">
+          <router-link tag="li" to="/index">
             <span>首页</span>
           </router-link>
           <router-link tag="li" to="/groupInfo">

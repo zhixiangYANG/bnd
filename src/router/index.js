@@ -11,6 +11,11 @@ const router = new Router({
       component: () => import('../views/home/home.vue'),
       children: [
         {
+          path: '/index',
+          name: 'index',
+          component: () => import('../views/home/index.vue')
+        },
+        {
           path: '/groupInfo',
           name: 'groupInfo',
           component: () => import('../views/groupInfo/groupInfo.vue')
@@ -29,6 +34,10 @@ const router = new Router({
           path: '/joinUs',
           name: 'joinUs',
           component: () => import('../views/joinUs/joinUs.vue')
+        },
+        {
+          path: '',
+          redirect: '/index'
         }
       ]
     }

@@ -2,14 +2,17 @@
   <div class="home-page">
     <Header />
     <router-view></router-view>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Header from '../../components/header'
+import Footer from '../../components/footer'
 export default {
   components: {
-    Header
+    Header,
+    Footer
   }
 }
 </script>
