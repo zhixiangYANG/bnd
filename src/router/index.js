@@ -36,6 +36,31 @@ const router = new Router({
           component: () => import('../views/joinUs/joinUs.vue')
         },
         {
+          path: '/enterpriseHonor',
+          name: 'enterpriseHonor',
+          component: () => import('../views/groupInfo/enterpriseHonor.vue')
+        },
+        {
+          path: '/enterpriseDevelop',
+          name: 'enterpriseDevelop',
+          component: () => import('../views/groupInfo/enterpriseDevelop.vue')
+        },
+        {
+          path: '/enterpriseCustomers',
+          name: 'enterpriseCustomers',
+          component: () => import('../views/groupInfo/enterpriseCustomers.vue')
+        },
+        {
+          path: '/enterpriseCulture',
+          name: 'enterpriseCulture',
+          component: () => import('../views/groupInfo/enterpriseCulture.vue')
+        },
+        {
+          path: '/contactUs',
+          name: 'contactUs',
+          component: () => import('../views/groupInfo/contactUs.vue')
+        },
+        {
           path: '',
           redirect: '/index'
         }

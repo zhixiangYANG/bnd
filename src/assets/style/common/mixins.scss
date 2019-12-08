@@ -13,3 +13,19 @@
     box-sizing: border-box;
   }
 }
+
+@mixin border2 {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid #059ce5;
+    transform: translateY(0.5);
+    box-sizing: border-box;
+  }
+}

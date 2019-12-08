@@ -20,6 +20,7 @@
 .footer{
   background-color: #999;
     padding: 20px 0;
+    height: 84px;
 
   .footerNav{
     text-align: center;
